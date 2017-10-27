@@ -1,12 +1,17 @@
-CSS
 body {
   background: #EEEEEE;
-  margin: 0;
-  padding: 0;
+}
+.background-image {
+    background-image: url('flowers.jpg');
+    height: 700px;
+}
+.container {
+    width: 780px;
+    background: #FFF;
+    margin: 0 auto;
 }
 
 /* Navigation */
-
 .navigation {
   box-sizing: border-box;
   background-color: #3587A4;
@@ -16,6 +21,19 @@ body {
   top: 0;
   width: 100%;
   z-index: 999;
+}
+
+/*h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}*/
+
+p {
+  color: #066806;
+}
+table {
+  color: #066806;
 }
 
 ul {
@@ -34,6 +52,19 @@ li {
   padding: 20px 18px 10px 18px;
   text-transform: uppercase;
 }
-
+img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 1px solid #021a40;
+}
 .active {
   color: #88CCF1;
+}
+.footer {
+      clear: both;
+      position: relative;
+      z-index: 10;
+      height: 3em;
+      margin-top: -3em;
+  }
